@@ -1,0 +1,116 @@
+.container {
+  display: flex;
+  align-items: flex-start;
+  column-gap: 70px;
+}
+.home {
+  margin: 20px 0;
+}
+.home .content {
+  flex-grow: 2;
+}
+.home .sidebar {
+  flex-grow: 1;
+  margin-left: auto;
+  max-width: 300px;
+  flex-shrink: 0;
+}
+.home h2 {
+  font-size: 1.2em;
+  color: #1f9751;
+  margin-bottom: 20px;
+}
+.home form {
+  background: #1f9751;
+  padding: 16px;
+  border-radius: 6px;
+}
+.home .btn {
+  width: 100%;
+  display: block;
+  background: transparent;
+  border: 1px solid white;
+  color: white;
+  padding: 8px;
+  border-radius: 4px;
+  text-align: center;
+  cursor: pointer;
+}
+.home .btn:not([disabled]):hover {
+  color: #1f9751;
+  background: white;
+}
+.home .btn-loading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: initial;
+}
+
+.field {
+  margin-bottom: 20px;
+}
+.field div {
+  color: white;
+  margin-bottom: 10px;
+}
+.field input {
+  border: 0;
+  border-radius: 4px;
+  padding: 12px 6px;
+  color: #333;
+  width: 100%;
+}
+
+.transaction {
+  position: relative;
+  margin: 30px auto;
+  border: 1px solid #f2f2f2;
+  box-shadow: 3px 3px 5px rgba(50,50,50,0.1);
+  padding: 20px;
+  border-left: 4px solid #1f9751;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.transaction .name {
+  color: #777;
+}
+.transaction .amount {
+  margin-left: auto;
+  margin-right: 30px;
+  color: #777;
+}
+.transaction .btn-close {
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  position: absolute;
+  width: 32px;
+  height: 32px;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  color: #777;
+  opacity: 0;
+}
+.transaction:hover .btn-close {
+  opacity: 1;
+}
+
+.error {
+  display: flex;
+  align-items: flex-start;
+  font-size: 14px;
+  gap: 10px;
+  margin-bottom: 15px;
+  color: #fe6564;
+  background: white;
+  padding: 8px;
+  border-radius: 4px;
+}
+.error > svg {
+  flex-shrink: 0;
+}
+
+

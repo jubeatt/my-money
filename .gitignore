@@ -3,7 +3,12 @@
 # dependencies
 /node_modules
 /.pnp
+/src/firebase
 .pnp.js
+
+#firebase
+fire*
+.fire*
 
 # testing
 /coverage

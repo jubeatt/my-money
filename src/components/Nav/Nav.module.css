@@ -1,0 +1,28 @@
+.nav {
+  background: #effaf0;
+  padding: 20px 0;
+}
+.container {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.title {
+  margin-right: auto;
+  font-weight: bold;
+  font-size: 1.2em;
+}
+.title a {
+  text-decoration: none;
+  letter-spacing: 1px;
+  color: black;
+}
+.options {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.options a {
+  text-decoration: none;
+  color: #333;
+}

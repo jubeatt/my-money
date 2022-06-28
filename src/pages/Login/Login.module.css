@@ -1,0 +1,22 @@
+.login {
+  margin-top: 60px;
+}
+.login h2 {
+  margin-bottom: 30px;
+}
+.field {
+  margin-bottom: 25px;
+}
+.field div {
+  margin-bottom: 5px;
+  color: #444;
+}
+.field input {
+  width: 100%;
+  border: 1px solid #999;
+  border-radius: 2px;
+  padding: 8px;
+  color: #777;
+}
+
+
